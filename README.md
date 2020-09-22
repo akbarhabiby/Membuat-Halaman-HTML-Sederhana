@@ -5,3 +5,6 @@ Setelah mempelajari dasar-dasar HTML, kamu ditantang untuk membuat sebuah laman 
 
 ## Direction
 [click here](http://newprep.hacktiv8.s3-website-ap-southeast-1.amazonaws.com/week-4/challenges/rocket-laman-web-pertamaku)
+
+## Live Demo 
+https://akbarhabiby.github.io/Membuat-Halaman-HTML-Sederhana/
