@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Buat Account Baru!</title>
+    </head>
+    <body>
+        <h1>Buat Account Baru!</h1>
+        <h2>Sign Up Form</h2>
+        <form action="welcome.html">
+            <label for="firstName">First name:</label><br>
+            <input type="text" name="firstName" id="firstName">
+    
+            <br><br>
+    
+            <label for="lastName">Last name:</label><br>
+            <input type="text" name="lastName" id="lastName">
+    
+            <br><br>
+    
+            <label for="gender">Gender</label><br>
+            <input type="radio" name="gender" id="gender"><span> Male</span><br>
+            <input type="radio" name="gender" id="female"><span> Female</span><br>
+            <input type="radio" name="gender" id="other"><span> Other</span>
+    
+            <br><br>
+    
+            <label for="nationality">Nationality</label><br>
+            <select name="nationality" id="nationality">
+                <option value="indonesian">Indonesian</option>
+                <option value="singapoeran">Singapoeran</option>
+                <option value="malaysian">Malaysian</option>
+                <option value="australian">Australian</option>
+                <option value="korean">Korean</option>
+                <option value="japanese">Japanese</option>
+                <option value="germany">Germany</option>
+            </select>
+    
+            <br><br>
+    
+            <label for="languageSpoken">Language Spoken:</label><br>
+            <input type="checkbox" name="languageSpoken" id="languageSpoken"><span> Bahasa Indonesia</span><br>
+            <input type="checkbox" name="languageSpoken" id="languageSpoken"><span> English</span><br>
+            <input type="checkbox" name="languageSpoken" id="languageSpoken"><span> Japanese</span><br>
+            <input type="checkbox" name="languageSpoken" id="languageSpoken"><span> Korean</span><br>
+            <input type="checkbox" name="languageSpoken" id="languageSpoken"><span> Germany</span><br>
+            <input type="checkbox" name="languageSpoken" id="languageSpoken"><span> Other</span>
+    
+            <br><br>
+    
+            <label for="bio">Bio:</label><br>
+            <textarea name="bio" id="bio" cols="25" rows="10"></textarea><br>
+
+            <button type="submit">Sign Up</button>
+        </form>
+    </body>
+</html>
